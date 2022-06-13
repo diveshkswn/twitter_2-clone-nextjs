@@ -11,13 +11,14 @@ const StyledImageContainer = styled('div')(() => css`
 position: relative;
 height: 40px;
 width: 40px;
-cursor: pointer;    
+cursor: pointer;
 `);
 
 const Sidebar : React.FC = () => (
   <div>
     <StyledImageContainer>
       <Image src="/logo-twitter-icon-symbol-0.png" objectFit="cover" alt="Twitter logo" layout="fill" />
+
     </StyledImageContainer>
     {/* <img src="/logo-twitter-icon-symbol-0.png" className="h-10 w-10" alt="Twitter Logo" /> */}
     <SidebarRow Icon={HomeIcon} title="Home" />
